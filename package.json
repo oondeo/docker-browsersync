@@ -1,0 +1,41 @@
+{
+  "name": "oo-browsersync",
+  "version": "2.11.2",
+  "description": "",
+  "main": "gulp",
+  "dependencies": {
+    "browser-sync": "^2.11.2",
+    "bs-html-injector": "^3.0.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-cache": "^0.2.8",
+    "gulp-cached": "^1.1.0",
+    "gulp-clean-css": "^2.0.4",
+    "gulp-concat": "^2.5.2",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "2.2.1",
+    "gulp-jshint": "^2.0.0",
+    "gulp-jshint-html-reporter": "^0.1.3",
+    "gulp-less": "^3.0.5",
+    "gulp-plumber": "^1.0.0",
+    "gulp-remember": "^0.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.2.0",
+    "httpreq": "^0.4.16",
+    "imagemin-pngcrush": "^4.1.0",
+    "jshint": "^2.8.0",
+    "node-sass": "^3.4.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/gulp"
+  },
+  "author": {
+    "name": "OONDEO"
+  },
+  "license": "GPL"
+}
