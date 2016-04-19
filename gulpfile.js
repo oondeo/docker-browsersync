@@ -41,6 +41,7 @@ function getPathRegex(path,extension,exclude_extension){
 
 var root = process.env.ROOT;
 var url = process.env.URL;
+var vport =  process.env.PORT;
 var css_path = getPathRegex(process.env.CSS_PATH,'css','min.css');
 var js_path = getPathRegex(process.env.JS_PATH,'js','min.js');
 var less_path = getPathRegex(process.env.LESS_PATH,'less');
@@ -73,7 +74,7 @@ gulp.task('browser-sync', function() {
     // });
     browserSync.init({
         proxy: url,
-        port: 3000,
+        port: vport,
         open: false,
         notify: true,
         xip: false,
